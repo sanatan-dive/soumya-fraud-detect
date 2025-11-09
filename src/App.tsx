@@ -588,7 +588,7 @@ class FraudDetectionService {
       alert.action = action;
       alert.reviewedAt = new Date();
       alert.comments = comments;
-      alert.assignedTo = "Dhruvi";
+      alert.assignedTo = "Soumyah";
 
       this.actions.push({
         alertId,
@@ -596,7 +596,7 @@ class FraudDetectionService {
         action,
         comments,
         timestamp: new Date(),
-        analyst: "Dhruvi",
+        analyst: "Soumyah",
       });
 
       this.saveToLocalStorage();
@@ -806,7 +806,7 @@ const FraudDetectionApp = () => {
                   Advanced Fraud Detection System
                 </h1>
                 <p className="header-subtitle">
-                  Industry-Standard ML Model v3.2.0 | User: Dhruvi |{" "}
+                  Industry-Standard ML Model v3.2.0 | User: Soumyah |{" "}
                   {getCurrentDateTime()}
                 </p>
               </div>
